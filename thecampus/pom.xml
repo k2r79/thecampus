@@ -17,7 +17,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>2.3</version>
+				<version>2.4</version>
 				<configuration>
 					<warSourceDirectory>src/main/webapp</warSourceDirectory>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
@@ -95,11 +95,11 @@
 			<version>3.3.1.GA</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-commons-annotations</artifactId>
-			<version>3.0.0.GA</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.hibernate</groupId>-->
+			<!--<artifactId>hibernate-commons-annotations</artifactId>-->
+			<!--<version>3.0.0.GA</version>-->
+		<!--</dependency>-->
 
 		<!-- Hibernate library dependecy start -->
 		<dependency>
